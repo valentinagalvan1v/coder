@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="shortcut icon" href="../img/L.png">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav class="nav">
+        <div class="logo"><a href="../index.html" class="Logo">Home</a></div>
+        <input type="checkbox" name="" id="mas" class="mas-toggle">
+        <label for="mas" id="mas-btn">
+            <img src="../img/mas.svg" alt="">
+        </label>
+        <div class="menu">
+             <ul>
+                 <li class="nav__item"><a href="./shop.html">Shop</a></li>
+                 <li class="nav__item"><a href="./proyectos.html">Proyectos</a></li>
+                <li class="nav__item"><a href="./about_us.html" >About Us</a></li>
+                <li class="nav__item"><a href="./contacto.html" >Contacto</a></li>
+             </ul>
+        </div>
+ </nav>
+
+    
+<div class="master">
+    <div class="c3">
+        <div class="noDisplay"></div>
+
+        <h1 class="titleContainer">Contacto</h1>
+
+
+        <div class="formulario"> 
+ 
+                <div>
+                    <form action="" method="get" enctype="text/plain">
+                        <label for="userName" class="marginLinks">Nombre</label>
+                        <input type="text" name="userName" id="userName">
+                    </div>
+                    <div>
+                        <label for="userApellido" class="marginLinks">Apellido</label>
+                        <input type="text" name="userApellido" id="userApellido">
+                    </div>
+                    <div>
+                        <label for="userMail" class="marginLinks">Mail</label>
+                        <input type="email" name="userMail" id="userMail" required>
+                    </div>
+                    
+                        <label for="userNationality" class="marginLinks">País</label>
+                        <select name="nationality" id="userNationality">
+                            <option value="" disabled selected>Elegir</option>
+                            <option value="A">Uruguay</option>
+                            <option value="B">Argentina</option>
+                            <option value="C">País en Latam</option>
+                            <option value="D">País fuera de Latam</option>
+                        </select>
+
+
+                        <div>
+
+                                <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Ingresa tu mensaje" class="marginLinks"></textarea>
+
+                            <div class="flexBtn">
+                                <input type="submit" value="Enviar" class="marginLinks btn">
+                                <input type="reset" value="Limpiar Formulario" class="marginLinks btn">
+                            </div>
+                        </div>
+                </div>
+                <div class="noDisplay"></div>
+
+        </div>
+        
+    </div>
+</div>
+
+
+<footer>
+    <div class="c3Footer">
+
+
+        <div class="menuFooter">
+            <a href="../index.html"> <h4>Home</h4></a><br>
+            <a href="./shop.html"> <h4>Shop</h4></a> <br>
+            <a href="./proyectos.html"><h4>Proyectos</h4></a> <br>
+            <a href="./about_us.html"><h4>About us</h4></a> <br>
+            <a href="./contacto.html"><h4>Contacto</h4></a>
+        </div>
+        <div> 
+            <p>Biarritz 1032. PdE.</p>
+            <p>200 554 695</p>
+            <p>studioimogen@gmail.com</p>
+        <div class="marginLinks">
+            <p>Instagram</p>
+            <p>Twitter</p>
+        </div> <br>
+        <div class="suscripcion marginLinks">
+            <input type="email" name="userMail" id="userMail" required placeholder="Tu mail"> 
+            <p>
+                para suscribirte al newsletter
+            </p>
+            <input type="submit" value="Enviar" class="btnFooter">
+        </div>
+        </div>
+  
+
+    </div>
+</footer>            
+
+</body>
+</html>
