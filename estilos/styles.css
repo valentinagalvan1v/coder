@@ -107,6 +107,18 @@ div.menu{   transition: all .5s ease;
         justify-content: space-between;}
 
 
+/*HOVER IMG*/
+
+
+.imgHover{cursor: pointer;
+                transition: all 0.1s ease-in-out;
+                opacity: 1;}
+
+.imgHover:hover{cursor: pointer;
+        transition: all 0.1s ease-in-out;
+        opacity: 0.5;}
+
+
 /*PÁGINA PROYECTO A*/     
 
 div.master{width: 100%;
