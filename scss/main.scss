@@ -1,0 +1,200 @@
+* { 
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    word-wrap: break-word;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.boton{
+    background-color: white;
+    color: black;
+    opacity: 0.5;
+    padding: 0px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 22px;
+
+    &:hover{opacity: 1;}
+}/*cierre boton*/
+
+.form-control{
+    background-color: white;
+    color: black;
+    border: none;
+    border-bottom: 2px solid lightgray;
+    border-radius: 0px;
+    padding: 0px;
+    font-size: 22px;
+
+    &::placeholder{
+        color:black;
+        font-size: 22px;
+    }
+
+    &:focus{
+        background-color: white;
+        color: black;
+        box-shadow: none;
+        border-color: white;
+        font-size: 22px;
+    }
+
+}/*cierre form-control*/
+
+.form-text{
+    font-size: 22px;
+}
+
+.form-select{
+    border-radius: 0px;
+    border: 2px solid lightgray;
+    color: black;
+}
+
+body{
+    font-family: 'Archivo', sans-serif;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+
+.navbar {
+    padding-top: 0px;
+
+    .navbar-toggler{border: none;}
+    .navbar-toggler:focus{box-shadow: none;}    
+    .navbar-brand{font-size: 30px;}
+    .masBtn{width: 25px; height: 25px;}
+    .btn-close{
+        background:  transparent url("../img/mas.svg") center/25px auto no-repeat;
+        opacity: 1;
+        transform: rotate(45deg);
+        box-shadow: none;
+    }
+
+}/*cierre navbar*/
+
+main{
+    margin-top: 200px;
+    
+    h1      {font-size: 5rem; font-weight: 600;}
+    h2      {font-style: italic;}
+    h3      {font-size: 1.875rem;} 
+    h4      {font-size: 1.875rem; font-weight:600}
+    h5      {font-size: 1.875rem;}
+    p       {font-size: 1.375rem;}
+    
+    a       {
+        font-size: 22px;
+        text-decoration: none;
+        color: black;
+        opacity: 0.5;
+        
+        &:hover{color:black; opacity: 1;}/*cierre a:hover*/
+        
+    }/*cierre a*/
+
+    img{width: 100%;}
+
+    ul {
+        list-style-type: none;
+        padding: 0px;
+    }
+
+}/*cierre main*/
+
+    /*FOOTER*/
+footer{
+    margin-top: 200px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    a   {
+        color: white;
+        opacity: 1;
+        font-size: 35px;
+        font-weight: 600;
+        text-decoration: none;
+    
+        &:hover{color: lightgray;}}
+
+
+
+    .boton{  
+        background-color: black;
+        color: white;
+        opacity: 0.5;
+        padding: 0px;
+        border: none;
+        border-bottom: 2px solid white;
+        font-size: 22px;
+                
+        &:hover{opacity: 1;}}
+
+
+
+    .form-control{
+        background-color: black;
+        color: white;
+        border: none;
+        border-bottom: 2px solid white;
+        border-radius: 0px;
+        padding: 0px;
+                    
+        &::placeholder{
+            color:white;
+            font-size: 22px;
+        }
+            
+            
+        &:focus{
+            background-color: black;
+            color: white;
+            box-shadow: none;
+            border-color: white;
+            font-size: 22px;
+        }
+
+    }/*cierre form-control*/
+
+
+    .form-text{font-size: 22px;}
+
+    p{font-size: 22px;}
+        
+    ul{
+        list-style-type: none;
+        padding: 0px;
+    }
+        
+}/*cierre footer*/
+
+
+
+/*SE*/
+
+@media screen and (max-width: 575px){
+
+h1      {font-size: 30px; font-weight: 600; }
+h2      {font-style: italic; font-size: 15px;}
+h3      {font-size: 20px;}
+h4      {font-size: 15px; font-weight:600}
+h5      {font-size: 15px;}
+p       {font-size: 10px;}
+a       {font-size: 10px; color: black; text-decoration: none;}
+
+
+footer{margin-top: 100px;
+       padding: 100px 12px 50px 12px;
+    .boton{font-size: 10px;}
+    .form-control::placeholder{font-size: 10px;}    
+    .form-control:focus{font-size: 10px;}
+    .form-text{font-size: 10px;}
+    p{font-size: 10px;}
+    a{font-size: 18px;}
+    } 
+
+}
