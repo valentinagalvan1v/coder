@@ -1,0 +1,23 @@
+/*VARIABLES*/
+
+.boton{
+    background-color: white;
+    color: black;
+    opacity: 0.5;
+    padding: 0px;
+    border: none;
+    font-size: 22px;
+
+    &:hover{opacity: 1;}
+}
+
+
+.botonFooter {
+    @extend .boton;
+        background-color: black;
+        color: white;
+        border-bottom: 2px solid black;
+}
+
+
+/*FIN VARIABLES*/

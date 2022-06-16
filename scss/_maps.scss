@@ -1,0 +1,20 @@
+$redes: (
+    "instagram": hotpink,
+    "twitter": rgb(115, 215, 246),
+);
+
+.instagram{
+    color: white;
+    
+    &:hover{color: map-get($map: $redes, $key: "instagram");
+    cursor: pointer;}
+}
+
+
+.twitter{
+    color: white;
+    
+    &:hover{color: map-get($map: $redes, $key: "twitter");
+    cursor: pointer;}
+}
+

@@ -1,0 +1,31 @@
+@mixin font ($size, $weight, $style) {
+    font-size: $size;
+    font-weight: $weight;
+    font-style: $style;
+}
+
+h1{
+    @include font(5rem, 600, none)
+}
+
+h2{
+    @include font(2rem, 500, italic)
+}
+
+h3{
+    @include font(1.875rem, 500, none)
+}
+
+h4{
+    @include font(1.875rem, 600, none)
+}
+
+p{
+    @include font(22px, 300, none)
+}
+
+a{
+    @include font(22px, 400, none)
+}
+
+
