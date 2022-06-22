@@ -1,7 +1,7 @@
 {
   "name": "disenointeriores_galvan_24mayo",
   "version": "1.0.0",
-  "description": "un paquete de sass",
+  "description": "Sitio de diseño de interiores",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
