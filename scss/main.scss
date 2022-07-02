@@ -100,14 +100,6 @@ main{
         font-style: none;
         }
     }
-
-    h4{
-        &.hoverPrice{
-            &:hover{
-                color: rgb(230, 206, 154);
-            }
-        }
-    }
 }
 
 .cursor{
