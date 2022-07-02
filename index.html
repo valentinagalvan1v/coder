@@ -11,134 +11,138 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./estilos/main.css">
 </head>
+
 <body>
-    
+
+  <header>
+
     <nav class="navbar bg-transparent fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">Home</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-           <img src="./img/mas.svg" alt="" class="masBtn">
-          </button>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-                <p class="offcanvas-title" id="offcanvasNavbarLabel">Menu</p>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+         <img src="./img/mas.svg" alt="" class="masBtn">
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+              <p class="offcanvas-title" id="offcanvasNavbarLabel">Menu</p>
 
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
-              </button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+            </button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./raiz/bsshop.html">Shop</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="./raiz/bsproyectos.html">Projects</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./raiz/bsshop.html">Shop</a>
+                  <a class="nav-link" href="./raiz/bsaboutus.html">About us</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./raiz/bsproyectos.html">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./raiz/bsaboutus.html">About us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./raiz/bscontacto.html">Contact</a>
-                  </li>
-              </ul>
+                  <a class="nav-link" href="./raiz/bscontacto.html">Contact</a>
+                </li>
+            </ul>
 
-            </div>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
+
+  </header>
+    
+  <main class="index">
+      <div class="container">
+          <div class="row">
+              <div class="col col-4">
+              </div>
+              <div class="col col-8">
+                  <h1>Studio Imogen</h1>
+                  <h2>Welcome to Imogen, come in, click around, make yourself at home.</h2>
+              </div>
+          </div>
+
+          <div class="row mt-2">
+              <div class="col col-4">
+              </div>
+              <div class="col col-8">
+                  <img src="./img/portada.jpg" alt="" class="mb-2 imgOpacity cursor">
+                  <a href="#">San Francisco</a>
+              </div>
+          </div>
+
+          <div class="row mt-5">
+              <div class="col col-4">
+                  <h3>
+                      Designed for you.
+                  </h3>
+              </div>
+              <div class="col col-4">
+                  <img src="./img/banco_maderasombra.jpg" alt="" class="mb-2 imgOpacity cursor">
+                  <a href="./raiz/bsshop.html">Shop</a>
+              </div>
+              <div class="col col-4">
+              </div>
+          </div>
+
+          <div class="row mt-5">
+              <div class="col col-4">
+                  <h3>
+                      Projects
+                  </h3>
+              </div>
+              <div class="col col-4">
+                  <img src="./img/proyecto_2.jpg" alt="" class="mb-2 imgOpacity cursor">
+                  <a href="./raiz/bsproyecto_a.html">Casa Grande</a>
+              </div>
+              <div class="col col-4">
+                  <img src="./img/proyectoC.jpg" alt="" class="mb-2 imgOpacity cursor">
+                  <a href="#">Fagan House</a>
+              </div>
+          </div>
+          
+      </div>
+  </main>
+
+  <footer class="bg-black text-white">
+      <div class="container">
+          <div class="row">
+              <ul class="col col-4">
+                  <li><a href="./index.html">Home</a></li>
+                  <li><a href="./raiz/bsshop.html">Shop</a></li>
+                  <li><a href="./raiz/bsproyectos.html">Projects</a></li>
+                  <li><a href="./raiz/bscontacto.html">Contact</a></li>
+              </ul>
+              <div class="col col-4">
+                  <p>Biarritz 1032. PdE.<br>
+                      200 554 695 <br>
+                      imogen@gmail.com
+                      <br><br>
+                    <p class="instagram mb-1">Instagram</p>
+                    <p class="twitter mt-1">Twitter </p>
+                  </p>
+                  <form>
+                      <div class="mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required placeholder="Your mail">
+                        <div id="emailHelp" class="form-text text-white">to get our newsletter</div>
+                      </div>
+                      <button type="submit" class="botonFooter">Send</button>
+                    </form>
+              </div>
+              <div class="col col-4"></div>
+
+              </div>
+          </div>
+      </div>
+
+  </footer>
 
 
-    <main class="index">
-        <div class="container">
-            <div class="row">
-                <div class="col col-4">
-                </div>
-                <div class="col col-8">
-                    <h1>Studio Imogen</h1>
-                    <h2>Welcome to Imogen, come in, click around, make yourself at home.</h2>
-                </div>
-            </div>
-
-            <div class="row mt-2">
-                <div class="col col-4">
-                </div>
-                <div class="col col-8">
-                    <img src="./img/portada.jpg" alt="" class="mb-2">
-                    <a href="#">San Francisco</a>
-                </div>
-            </div>
-
-            <div class="row mt-5">
-                <div class="col col-4">
-                    <h3>
-                        Designed for you.
-                    </h3>
-                </div>
-                <div class="col col-4">
-                    <img src="./img/banco_maderasombra.jpg" alt="" class="mb-2">
-                    <a href="./raiz/bsshop.html">Shop</a>
-                </div>
-                <div class="col col-4">
-                </div>
-            </div>
-
-            <div class="row mt-5">
-                <div class="col col-4">
-                    <h3>
-                        Projects
-                    </h3>
-                </div>
-                <div class="col col-4">
-                    <img src="./img/proyecto_2.jpg" alt="" class="mb-2">
-                    <a href="./raiz/bsproyecto_a.html">Casa Grande</a>
-                </div>
-                <div class="col col-4">
-                    <img src="./img/proyectoC.jpg" alt="" class="mb-2">
-                    <a href="#">Fagan House</a>
-                </div>
-            </div>
-            
-        </div>
-    </main>
-
-    <footer class="bg-black text-white">
-        <div class="container">
-            <div class="row">
-                <ul class="col col-4">
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./raiz/bsshop.html">Shop</a></li>
-                    <li><a href="./raiz/bsproyectos.html">Projects</a></li>
-                    <li><a href="./raiz/bscontacto.html">Contact</a></li>
-                </ul>
-                <div class="col col-4">
-                    <p>Biarritz 1032. PdE.<br>
-                       200 554 695 <br>
-                       imogen@gmail.com
-                       <br><br>
-                      <p class="instagram mb-1">Instagram</p>
-                      <p class="twitter mt-1">Twitter </p>
-                    </p>
-                    <form>
-                        <div class="mb-3">
-                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required placeholder="Your mail">
-                          <div id="emailHelp" class="form-text text-white">to get our newsletter</div>
-                        </div>
-                        <button type="submit" class="botonFooter">Send</button>
-                      </form>
-                </div>
-                <div class="col col-4"></div>
-
-                </div>
-            </div>
-        </div>
-
-    </footer>
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </body>
 </html>

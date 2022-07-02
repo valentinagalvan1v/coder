@@ -90,7 +90,8 @@ a {
 .form-select {
   border-radius: 0px;
   border: 2px solid lightgray;
-  color: black; }
+  color: black;
+  width: 100%; }
   .form-select:focus {
     border-color: lightgrey; }
 
@@ -129,6 +130,22 @@ main {
   main ul {
     list-style-type: none;
     padding: 0px; }
+
+.shop p.textoProductos {
+  font-size: 15px;
+  font-weight: 300;
+  font-style: none; }
+
+.shop h4.hoverPrice:hover {
+  color: #e6ce9a; }
+
+.cursor {
+  cursor: pointer; }
+
+.imgOpacity {
+  opacity: 1; }
+  .imgOpacity:hover {
+    opacity: 0.8; }
 
 /*FOOTER*/
 footer {
